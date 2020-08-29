@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		Populate dropdown list 
+		with array values 
+	</title> 
+</head> 
+
+<body style="text-align:center;"> 
+	
+	<h1 style="color:green;"> 
+		ARRAY  
+	</h1> 
+	
+	<p id="geeks" style= 
+		"font-size:20px; font-weight:bold"> 
+	</p> 
+	
+	<select id="arr"></select> 
+	
+	<br><br> 
+	
+	<button onclick="GFG_Fun();"> 
+		click here 
+	</button> 
+	
+	<p id="gfg" style="font-size: 26px; 
+		font-weight: bold;color: green;"> 
+	</p> 
+	
+	<script> 
+		var up = document.getElementById('geeks'); 
+		var down = document.getElementById('gfg'); 
+		var select = document.getElementById("arr"); 
+		var elmts = ["HTML", "CSS", "JS", "PHP", "jQuery"]; 
+		up.innerHTML = "Click on the button to " 
+					+ "perform the operation"+ 
+					".<br>Array - [" + elmts + "]"; 
+
+		// Main function 
+		function GFG_Fun() { 
+			for (var i = 0; i < elmts.length; i=i+2) { 
+				var optn = elmts[i]; 
+				var el = document.createElement("option"); 
+				el.textContent = optn; 
+				el.value = optn; 
+				select.appendChild(el); 
+			} 
+			down.innerHTML = "Elements Added"; 
+		} 
+	</script> 
+</body> 
+
+</html> 
