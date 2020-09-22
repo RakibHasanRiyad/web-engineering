@@ -1,0 +1,22 @@
+
+div{
+	text-align: center;
+	box-shadow: 5px 10px #000000;
+	margin-left: 500pt;
+	margin-right: 500pt;
+	margin-top: 100pt;
+	background-color: #0098AB;
+  	/*border-corner-shape: scoop;*/
+  	border-radius: 10pt;
+  	height: 300pt;
+  	width: 180pt;
+	
+}
+
+#pad{
+	margin-left: 5px;
+}
+
+.input{
+	size: 200pt;
+}
