@@ -1,0 +1,13 @@
+<?xml version = "1.0" ?>
+<address>
+	<name>
+	     <first>Md. Rakib</first>
+	     <last>Hasan</last>
+     </name>
+     <email>riyadrakib@gmail.com</email>
+     <phone>017**-******</phone>
+     <birthday>
+	     <year>1900</year>
+	     <month>00</month>00   <day>00</day>
+	</birthday>
+</address>
