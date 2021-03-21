@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>The td colspan attribute</h1>
+  <h1>The td colspan attribute</h1>
 
-<table>
-  <tr>
-    <th colspan="2">Month</th>
-    <th colspan="2">Savings</th>
-    <th colspan="2">Savings</th>
-  </tr>
-  <tr>
-    <td colspan="2">January</td>
-    <td colspan="2">$100</td>
-    <td colspan="2">$100</td>
-  </tr>
-  <tr>
-    <td colspan="2">February</td>
-    <td colspan="2">$80</td>
-    <td colspan="2">$80</td>
-  </tr>
-  <tr>
-    <td colspan="3">Sum: $180</td>
-    <td colspan="3">$80</td>
-  </tr>
-</table>
- 
+  <table>
+    <tr>
+      <th colspan="2">Month</th>
+      <th colspan="2">Savings</th>
+      <th colspan="2">Savings</th>
+    </tr>
+    <tr>
+      <td colspan="2">January</td>
+      <td colspan="2">$100</td>
+      <td colspan="2">$100</td>
+    </tr>
+    <tr>
+      <td colspan="2">February</td>
+      <td colspan="2">$80</td>
+      <td colspan="2">$80</td>
+    </tr>
+    <tr>
+      <td colspan="3">Sum: $180</td>
+      <td colspan="3">$80</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>1</td>
+      <td rowspan="2">4</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+    </tr>
+    <tr>
+      <td rowspan="2">5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+    </tr>
+  </table>
+
 </body>
+
 </html>
