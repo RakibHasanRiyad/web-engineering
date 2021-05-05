@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Online -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    
+    <!--Offline-->
+    <script src="jquery-3.6.0.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").hide();
+                //cloning an element
+                //$("button").clone().appendTo("h2");
+                
+                //coloring button
+                $("button").css('background-color', 'green');
+
+
+ 
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <h2>This is a heading</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <button>Click me</button>
+
+</body>
+
+</html>
