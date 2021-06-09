@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Click the button to perfom a global, case-insensitive search for the letters "ain" in a string, and display the
+        matches.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var str = "The rain in SPAIN stays mainly in the plain";
+            var res = str.match(/ain/i);
+            document.getElementById("demo").innerHTML = res;
+        }
+    </script>
+
+</body>
+
+</html>

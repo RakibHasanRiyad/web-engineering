@@ -11,3 +11,5 @@ function allnumeric(inputtxt) {
             return false;
       }
 }
+
+text.match(pattern)

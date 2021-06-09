@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>Click the button to search a string for "blue", and display the position of the match.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p>Mr. Blue has a blue house</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            var str = "Mr. blue has a blue house"
+            var n = str.search(/blue/);
+            document.getElementById("demo").innerHTML = n;
+
+            
+        }
+    </script>
+
+</body>
+
+</html>
+
