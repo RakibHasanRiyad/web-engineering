@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function lighton() {
+            document.getElementById('myimage').src = "bulbon.gif";
+        }
+
+        function lightoff() {
+            document.getElementById('myimage').src = "bulboff.gif";
+        }
+    </script>
+</head>
+
+<body>
+
+    <img id="myimage" onmousedown="lighton()" onmouseup="lightoff()" src="bulboff.gif" width="100" height="180" />
+
+    <p>Click mouse and hold down!</p>
+
+</body>
+
+</html>
