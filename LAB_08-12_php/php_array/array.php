@@ -5,8 +5,8 @@
 <?php
 
 //array_push
-$txt = array("Comilla ","University ");
-array_push($txt,"Comilla");
+$txt = array("Open ","University ");
+array_push($txt,"Bangladesh");
 
 foreach($txt as $value)
 {
@@ -16,7 +16,7 @@ var_dump($txt);
 
 
 //array_pop
-$txt = array("Comilla ","University ", "Comilla ");
+$txt = array("Open ","University ", "Bangladesh ");
 array_pop($txt);
 
 foreach($txt as $value)
@@ -25,7 +25,7 @@ foreach($txt as $value)
 }
 
 //array_object_append
-$txt_obj = new ArrayObject(array('Comilla ','University ', 'Comilla ')); 
+$txt_obj = new ArrayObject(array('Open ','University ', 'Bangladesh ')); 
 $txt_obj->append('welcomes you'); 
  
 foreach($txt_obj as $value)

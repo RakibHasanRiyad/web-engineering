@@ -3,12 +3,12 @@ function allnumeric(inputtxt) {
       if (inputtxt.value.match(numbers)) {
             alert('Your Registration number has accepted....');
             document.form1.text1.focus();
-            return true;
+            //return true;
       }
       else {
             alert('Please input numeric characters only');
             document.form1.text1.focus();
-            return false;
+            //return false;
       }
 }
 

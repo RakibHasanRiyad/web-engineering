@@ -7,12 +7,13 @@ $db_name="test"; // Database name
 $tbl_name="user"; // Table name
 
 
+//echo "Server Connection 01";
 
 // Connect to server and select databse.
 $con=mysqli_connect("$host", "$username", "$password")or die("cannot connect");
 mysqli_select_db($con,"$db_name")or die("cannot select DB");
 
-echo "Server Connection ";
+//echo "Server Connection 02";
 
 
 // username and password sent from form

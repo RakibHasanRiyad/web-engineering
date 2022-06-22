@@ -26,7 +26,8 @@ $myname = $_SESSION['myname'];
 echo "Welcome <h1> $myname "."Hasan </h1>";
 
 
-session_destroy();
+#session_destroy();
+
 ?>
 
 </body>

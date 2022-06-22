@@ -35,7 +35,7 @@ $result=mysqli_query($con,$sql);
 // Mysql_num_row is counting table row
 $count=mysqli_num_rows($result);
 
-echo "string 122";
+#echo "string 122";
 if($count==1)
 {
 
