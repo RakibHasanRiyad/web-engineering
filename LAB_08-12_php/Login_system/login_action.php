@@ -1,8 +1,8 @@
 <?php
 
 $host="localhost"; // Host name
-$username="rakib"; // Mysql username
-$password="rakib03"; // Mysql password
+$username="root"; // Mysql username
+$password=""; // Mysql password
 $db_name="test"; // Database name
 $tbl_name="user"; // Table name
 
